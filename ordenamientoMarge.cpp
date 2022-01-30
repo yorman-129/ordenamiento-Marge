@@ -35,7 +35,7 @@ void merge(vector<int>&arreglo,int inicio, int mitad, int final){
     while(j < elementosDer){
         arreglo[k] = derecha[j];
         j++;
-        k++;
+        k++; 
     }
 
     while(i < elementosIzq){
